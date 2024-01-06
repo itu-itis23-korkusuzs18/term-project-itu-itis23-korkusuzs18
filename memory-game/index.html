@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personalized Memory Game Website</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Memory Game</h1>
+    </header>
+
+    <section id="memory-game-page">
+        <a href="/term-project-itu-itis23-korkusuzs18" class="button">Back to homepage</a>
+        <div id="memory-game" class="memory-game">
+            <div id="cards-container"></div>
+            <div class="score">Score: 0</div>
+            <button onclick="startGame(this);">Start Game</button>
+            <button onclick="restartGame()" disabled>Restart</button>
+            <p id="game-message"></p>
+        </div>
+    </section>
+
+    <script src="../index.js"></script>
+</body>
+
+</html>
